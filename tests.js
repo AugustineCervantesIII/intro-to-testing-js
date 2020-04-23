@@ -13,3 +13,25 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+
+// describe("isNumeric", function(){
+//    it('should be a defined function', function(){
+//        expect(typeof isNumeric).toBe('function');
+//    })
+//     it('should return a boolean value when called', function(){
+//         expect(typeof isNumeric()).toBe('boolean');
+//     })
+//     it('should return true when passed the number 5', function(){
+//         expect(isNumeric(5)).toBe(true);
+//     })
+//     it("should return false when passed the string 'Jim Henson'", function(){
+//         expect(isNumeric("Jim Henson")).toBe(false);
+//     })
+//
+// });
+
+describe('sayHello', function(){
+    it('Should be a defined function.', function(){
+        expect(typeof sayHello).toBe('function');
+    })
+})
