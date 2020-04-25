@@ -28,10 +28,12 @@ describe('sayHello', function () {
     it('Should also return "Hello, Alex!" when executed', function () {
         expect(sayHello("Alex")).toBe("Hello, Alex!");
     });
-    it('Should also return "Hello, Pat!" when executed.', function() {
+    it('Should also return "Hello, Pat!" when executed', function() {
         expect(sayHello("Pat")).toBe("Hello, Pat!");
     })
-
+    it('Should return "Hello, World!" when executed', function(){
+    expect(sayHello(false)).toBe("Hello, World!");
+    });
 });
 // describe("isNumeric", function(){
 //    it('should be a defined function', function(){

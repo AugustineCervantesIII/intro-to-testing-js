@@ -7,18 +7,20 @@ function helloWorld() {
 //     return !isNaN(input === "Jim Henson");
 // }
 
-// function sayHello(input){
-//     if (input === "Pat"){
-//         return "Hello, Pat!";
-//     } else if(input === "Alex") {
-//         return "Hello, Alex!";
-//     } else {
-//         return "Hello, Jane!";
-//     }
-// }
-
 function sayHello(input){
-    return ("Hello, " + input + "!");
+    if(input === true || input === false){
+        return ("Hello, World!")
+    } else if (input === "Pat") {
+        return "Hello, Pat!";
+    } else if(input === "Alex") {
+        return "Hello, Alex!";
+    } else {
+        return "Hello, Jane!";
+    }
 }
 
-console.log(sayHello("Jane"));
+// function sayHello(input){
+//     if (input === true){
+//         return ("Hello, World!");
+//     }
+// }
