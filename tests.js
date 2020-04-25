@@ -23,15 +23,15 @@ describe('sayHello', function () {
         expect(typeof sayHello()).toBe('string');
     });
     it('Should return the string "Hello, Jane!" when executed', function () {
-        expect(sayHello()).toBe("Hello, Jane!");
+        expect(sayHello("Jane")).toBe("Hello, Jane!");
     });
-    it('Should return "Hello, Alex!" when executed', function () {
-        expect(typeof sayHello("Alex")).toBe("Hello, Alex!");
+    it('Should also return "Hello, Alex!" when executed', function () {
+        expect(sayHello("Alex")).toBe("Hello, Alex!");
     });
-    it('Should return "Hello, Pat!" when executed.', function() {
-        expect(typeof sayHello("Pat!")).toBe("Hello, Pat!");
-
+    it('Should also return "Hello, Pat!" when executed.', function() {
+        expect(sayHello("Pat")).toBe("Hello, Pat!");
     })
+
 });
 // describe("isNumeric", function(){
 //    it('should be a defined function', function(){
