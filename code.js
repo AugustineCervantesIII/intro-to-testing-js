@@ -19,6 +19,10 @@ function sayHello(input){
     }
 }
 
+function isFive(){
+
+}
+
 // function sayHello(input){
 //     if (input === true){
 //         return ("Hello, World!");
