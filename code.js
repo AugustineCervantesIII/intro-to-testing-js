@@ -19,8 +19,8 @@ function sayHello(input){
     }
 }
 
-function isFive(){
-
+function isFive(input){
+    return input === 5;
 }
 
 // function sayHello(input){

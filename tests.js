@@ -40,6 +40,15 @@ describe('isFive', function () {
     it('Should be a defined function.', function () {
         expect(typeof isFive).toBe('function');
     });
+    it('Should return any input as a boolean.', function () {
+        expect(typeof isFive()).toBe('boolean');
+    });
+    it('Should return true when 5 is passed.', function () {
+        expect(typeof isFive()).toBe('boolean');
+    });
+    it('Should return true when "5" is passed.', function () {
+        expect(typeof isFive()).toBe('boolean');
+    });
 });
 // describe("isNumeric", function(){
 //    it('should be a defined function', function(){
