@@ -27,11 +27,23 @@ function isEven(input) {
     return parseFloat(input) % 2 === 0;
 }
 
-function isVowel(num){
-    return num === true;
+
+function isVowel(str){
+    let noCase = str.toLowerCase();
+    return noCase === "a" || noCase === "e" || noCase === "i" || noCase === "o" || noCase === "u";
 }
-// function sayHello(input){
-//     if (input === true){
-//         return ("Hello, World!");
-//     }
-// }
+
+
+console.log(isVowel("4"));
+
+
+
+
+
+
+function add(num1, num2){
+    return parseFloat(num1) + parseFloat(num2);
+}
+
+console.log(add("banana", "split"));
+console.log(add());
